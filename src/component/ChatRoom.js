@@ -171,7 +171,9 @@ const ChatRoom = () => {
                 onChange={handleUsername}
                 margin="normal"
               />
-               
+               <button type="button" onClick={registerUser}>
+                    connect
+              </button>
         </div>}
     </div>
     )
